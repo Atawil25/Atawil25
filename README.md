@@ -17,5 +17,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
-Neither Hope Nor Fear 
+Neither Hope Nor Fear.  
+
 -- He who shall not be named :)
