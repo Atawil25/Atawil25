@@ -1,19 +1,17 @@
 # Hello World 👋
 ## I do lots of stuff here :)
-### Heading 3
+### The quotes here are
 
 
-<!--
-**Atawil25/Atawil25** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+Neither Hope Nor Fear.  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+-- He who shall not be named :) 
+
+Always in motion the Future is.
+
+-- Yoda
+
+Computers make excellent and effcient servants; but I have no wish to serve under them. 
+
+-- Mr.Spock
