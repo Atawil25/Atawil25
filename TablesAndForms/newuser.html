@@ -27,7 +27,7 @@
                         required/>
             <br/>
                 <label>
-                    Email
+                    Email:
                 </label>
             <br/>
                 <input id = "email"
@@ -35,13 +35,123 @@
                         pattern = ".+gmail\.com"
                         required/>
             <br/>
-
-
+                <label>
+                    Phone Number:
+                </label>
             <br/>
+                <input type="tel" 
+                        id="phone" 
+                        name="phone"
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        required>
+            <br/>
+                <label>
+                    URL:
+                </label>
+            <br/>
+                <input type="url" 
+                        name="url"  
+                        id="url"
+                        pattern="https://.*" 
+                        size="30">
+            <br/>
+                <label>
+                    Birth Month:
+                </label>
+            <br/>
+                <input type="month" 
+                        id="Month" 
+                        name="BirthMonth"
+                        value = "****-10">
+            <br/>
+                <label>
+                    Birth Year:
+                </label>
+            <br/>
+                <input type="year" 
+                        id="year" 
+                        name="BirthYear">
+            <br/>
+                <label>
+                    Can we email you?
+                </label>
+            <br/>
+                <input type="checkbox" 
+                        id="Yes" 
+                        name="EmailUse">
+                <label>
+                    Yes
+                </label>
+            <br>
+                <input type="checkbox" 
+                        id="No" 
+                        name="EmailUse2">
+                <label>
+                     No
+                </label>
+            <br/>
+                <label>
+                    Can we text you?
+                </label>
+            <br/>
+                <input type ="radio"
+                        id = "text"
+                        name = "Yes">
+                        <label>
+                            Yes
+                        </label>
+            <br/>
+                <input type ="radio"
+                        id = "text"
+                        name = "No">
+                        <label>
+                            No
+                        </label>
+            <br/>
+                <label>
+                    Do you like our product?
+                </label>
+            <br/>
+                <input type ="radio"
+                        id = "rating"
+                        name = "Hate">
+                        <label>
+                            1 - don't like it
+                        </label>
+                        <br/>
+                <input type ="radio"
+                        id = "rating"
+                        name = "ok">
+                        <label>
+                            2 - It's decent
+                        </label>
+            <br/>
+                <input type ="radio"
+                        id = "rating"
+                        name = "Eh">
+                        <label>
+                            3 - Eh
+                        </label>
+            <br/>      
+                <input type ="radio"
+                       id = "rating"
+                        name = "Great">
+                        <label>
+                            4 - Its Great
+                        </label>
+            <br/>
+                <input type ="radio"
+                        id = "rating"
+                        name = "Love">
+                        <label>
+                            5 - LOVE IT
+                        </label>
+            <br/>
+            <br/>
+                <input 
+                type = "reset"
+                value = "Clear"/>
                 <input type = "submit"/>
-
-
-
             </form>
         </body>
     </head>
