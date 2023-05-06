@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My To-Do List</title>
+  <link rel="stylesheet"  href="ToDo.css">
+</head>
+<body>
+  <h1>My To-Do List</h1>
+  <input type="text" id="newItem">
+  <button id="addButton">Add</button>
+  <ol id="list"></ol>
+  <p>Tasks: <span id="counter"></span></p>
+
+  <script>
+    var newItem = document.getElementById("newItem");
+    var list = document.getElementById("list");
+    var counter = document.getElementById("counter");
+    var count = 0;
+    counter.innerHTML = count;
+
+    // Add buttom
+    document.getElementById("addButton").addEventListener("click", function() {
+      var inputValue = newItem.value;
+
+      // Adding to the list
+      if (inputValue) {
+        var li = document.createElement("li");
+        li.innerHTML = "<span class='number'>" + (count++) + ".</span> " + inputValue + " <button class='removeButton'>X</button>";
+        list.appendChild(li);
+        newItem.value = "";
+        count++;
+        counter.innerHTML = count;
+      }
+      // RemoveButtons
+      var remove = document.getElementsByClassName("removeButton");
+      for (var i = 0; i < remove.length; i++) {
+        remove[i].addEventListener("click", function() {
+          this.parentElement.remove();
+          count--;
+          counter.innerHTML = count;
+          ListCounter();
+        });
+      }
+      // ListCount
+      function ListCounter() {
+        var items = list.getElementsByTagName("li");
+            count = 0;
+        for (var i = 0; i < items.length; i++) {
+        items[i].getElementsByTagName("span")[0].innerHTML = (i+1) + ".";
+        count++;
+        }
+            counter.innerHTML = count;
+}
+      ListCounter();
+    });
+  </script>
+</body>
+</html>
